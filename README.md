@@ -39,7 +39,7 @@ Example response
 }
 ```
 
-### Update
+### Patch
 Example response
 ```json
 {
