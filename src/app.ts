@@ -1,10 +1,12 @@
 import express, { Request, Response, NextFunction} from 'express'
+import { json } from 'body-parser'
 
 import todoRoutes from './routes/todo'
 
 const app = express()
 
-app.use('/routes', todoRoutes)
+app.use(json())
+app.use('/todos', todoRoutes)
 
 //error handling
 app.use((err: Error,req:Request, res: Response,next:NextFunction)=> {
