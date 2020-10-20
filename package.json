@@ -1,0 +1,24 @@
+{
+  "name": "ts-api",
+  "version": "1.0.0",
+  "description": "Learning typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papasavvas/node-ts-api.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "api"
+  ],
+  "author": "Alexandros Papasavva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/papasavvas/node-ts-api/issues"
+  },
+  "homepage": "https://github.com/papasavvas/node-ts-api#readme"
+}
