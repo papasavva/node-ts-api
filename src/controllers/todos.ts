@@ -8,8 +8,12 @@ export const create : RequestHandler = (req, res, next) => {
     const text = (req.body as {text : string}).text
 
     const newTodo = new Todo(id, text)
-    console.log(newTodo)
+
     TODOS.push(newTodo)
 
     res.json({message : 'Created the todo', data : newTodo})
+}
+
+export const read : RequestHandler = (req, res, next) => {
+    res.json({message : 'List of todos', data : TODOS})
 }
