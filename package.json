@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/papasavvas/node-ts-api/issues"
   },
-  "homepage": "https://github.com/papasavvas/node-ts-api#readme"
+  "homepage": "https://github.com/papasavvas/node-ts-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.0",
+    "nodemon": "^2.0.6"
+  }
 }
